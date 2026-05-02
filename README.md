@@ -82,9 +82,9 @@ Change it there if your backend runs on a different port.
 |-------|------|------|
 | `/login` | Login | Public |
 | `/signup` | Signup | Public |
-| `/dashboard` | Dashboard with stat cards + idea grid | ✅ |
-| `/profile` | View & edit profile, manage skills | ✅ |
-| `/ideas` | Explore + search + filter ideas | ✅ |
-| `/ideas/create` | Post a new startup idea | ✅ |
-| `/ideas/:id` | Full idea detail + apply dialog | ✅ |
-| `/requests` | Sent & received collaboration requests | ✅ |
+| `/dashboard` | Dashboard with stat cards + idea grid |  |
+| `/profile` | View & edit profile, manage skills |  |
+| `/ideas` | Explore + search + filter ideas |  |
+| `/ideas/create` | Post a new startup idea |  |
+| `/ideas/:id` | Full idea detail + apply dialog |  |
+| `/requests` | Sent & received collaboration requests |  |
