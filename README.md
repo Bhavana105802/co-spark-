@@ -464,47 +464,8 @@ curl -X GET http://localhost:5000/api/users/profile \
 
 ---
 
-## 🚀 Deployment
 
-### Deploy to Heroku
-
-1. **Install Heroku CLI**
-   ```bash
-   npm install -g heroku
-   ```
-
-2. **Login to Heroku**
-   ```bash
-   heroku login
-   ```
-
-3. **Create Heroku App**
-   ```bash
-   heroku create your-app-name
-   ```
-
-4. **Set Environment Variables**
-   ```bash
-   heroku config:set MONGO_URI=your_mongodb_uri
-   heroku config:set JWT_SECRET=your_jwt_secret
-   ```
-
-5. **Deploy**
-   ```bash
-   git push heroku main
-   ```
-
-### Deploy to AWS/DigitalOcean
-
-Use PM2 for process management:
-```bash
-npm install -g pm2
-pm2 start server.js --name cospark-backend
-pm2 save
-pm2 startup
-```
-
----
+ 
 
 ## 🔐 Security Highlights
 
